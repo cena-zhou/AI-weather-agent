@@ -23,8 +23,8 @@ def get_secret(name: str, default: str = "") -> str:
 
 
 # ================= 1. 网页基础配置 =================
-st.set_page_config(page_title="Billy_chou的专属天气助理", page_icon="🌤️")
-st.title("🌤️ Billy_chou的专属天气助理")
+st.set_page_config(page_title="您的专属天气助理，欢迎使用！", page_icon="🌤️")
+st.title("🌤️ 您的专属天气助理，欢迎使用！")
 st.caption("基于 LangChain 和 DeepSeek 开发的智能 Agent")
 
 if not get_secret("DEEPSEEK_API_KEY"):
